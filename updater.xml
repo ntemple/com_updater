@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0" method="upgrade">
+ <name>Updater</name>
+ <creationDate>${date}</creationDate>
+ <author>Intellispire</author>
+ <authorEmail>admin@intellispire.com</authorEmail>
+ <authorUrl>http://www.intellispire.com/</authorUrl>
+ <copyright>Copyright (c)2008-2010 Intellispire</copyright>
+ <license>GPLv2.0</license>
+ <version>1.5.1</version>
+ <revision>{svn.lastrevision}</revision>
+ <description>Updater Component</description>
+ <files folder="components/com_updater">
+       <file>index.html</file>
+ </files>
+ <administration>
+  <menu>Add Software</menu>
+  <files folder="administrator/components/com_updater">
+        <file>controller.php</file>
+        <file>certs/intellispire.pem</file>
+        <file>certs/index.html</file>
+        <file>help/en-GB/updaterhelp.html</file>
+        <file>help/en-GB/index.html</file>
+        <file>admin.updater.php</file>
+        <file>config/version150.xml</file>
+        <file>config/index.html</file>
+        <file>htaccess</file>
+        <file>config.xml</file>
+        <file>LICENSE</file>
+        <file>eviews/check.view.default.html.php</file>
+        <file>eviews/install.view.default.html.php</file>
+        <file>eviews/activate.view.default.html.php</file>
+        <file>eviews/tools.view.default.html.php</file>
+        <file>eviews/profile.view.default.html.php</file>
+        <file>eviews/details.view.default.html.php</file>
+        <file>eviews/action.partial.html.php</file>
+        <file>eviews/upgrade.view.default.html.php</file>
+        <file>eviews/zone.partial.php</file>
+        <file>eviews/index.html</file>
+        <file>eviews/javascript.php</file>
+        <file>eviews/display.view.default.html.php</file>
+        <file>index.html</file>
+        <file>lib/expackage.php</file>
+        <file>lib/isnclient/utils.inc.php</file>
+        <file>lib/isnclient/intellispireNetworkClient.class.php</file>
+        <file>lib/isnclient/spyc.php</file>
+        <file>lib/isnclient/isnid.class.php</file>
+        <file>lib/isnclient/manifest.class.php</file>
+        <file>lib/isnclient/nusoap/nusoap.php</file>
+        <file>lib/isnclient/nusoap/nusoapmime.php</file>
+        <file>lib/isnclient/nusoap/index.html</file>
+        <file>lib/isnclient/utilSignature.class.php</file>
+        <file>lib/isnclient/index.html</file>
+        <file>lib/curlemu/libcurlemu.inc.php</file>
+        <file>lib/curlemu/libcurlexternal.inc.php</file>
+        <file>lib/curlemu/class_HTTPRetriever.php</file>
+        <file>lib/curlemu/libcurlnative.inc.php</file>
+        <file>lib/curlemu/index.html</file>
+        <file>lib/installer/pclzip.lib.php</file>
+        <file>lib/installer/archive_tar.php</file>
+        <file>lib/installer/helper.php</file>
+        <file>lib/installer/index.html</file>
+        <file>lib/index.html</file>
+        <file>updater.model.php</file>
+        <file>images/compat_15_native_green.png</file>
+        <file>images/ext_com.png</file>
+        <file>images/ajax-loader.gif</file>
+        <file>images/compat_15_legacy_green.png</file>
+        <file>images/16px-Crystal_Clear_action_find.png</file>
+        <file>images/compat_15_native.png</file>
+        <file>images/compat_15_legacy.png</file>
+        <file>images/compat_10.png</file>
+        <file>images/ext_mod.png</file>
+        <file>images/ext_plg.png</file>
+        <file>images/refresh_f2.png</file>
+        <file>images/refresh.png</file>
+        <file>images/index.html</file>
+        <file>images/ajax-loader.html</file>
+        <file>images/updater.js</file>
+        <file>manifest/index.html</file>
+  </files>  
+ </administration> 
+ <installfile>install.updater.php</installfile>
+</install>

@@ -1,0 +1,7 @@
+## Deny access to extension xml files (uncomment out to activate)
+# Options -Indexes
+# <Files ~ "\.(xml|yml|php)$">
+# Order allow,deny
+# Deny from all
+# Satisfy all
+# </Files>

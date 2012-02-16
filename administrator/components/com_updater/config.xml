@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params>
+                <param name="download"
+                       type="radio"
+                       default="0"
+                       label="Download Only"
+                       description="This will allow you to download the package to the tmp directory.  Use for troubleshooting or inspecting packages before installation."
+                 >
+                  <option value="0">No (default)</option>
+                  <option value="1">Yes</option>
+                </param>
+
+                <param
+                  name="forceinstall"
+                  type="radio"
+                  default="0"
+                  label="[Pro] Force Install"
+                  description="This will allow you to force the system to install / update a package even if it has already been installed. USE WITH CARE AND BACKUP FIRST. This WILL overwrite extensions and there are NO SAFEGUARDS. USE AT YOUR OWN RISK."
+                >
+                  <option value="0">No (default)</option>
+                  <option value="1">Yes (not recommended)</option>
+                </param>
+
+
+                <param name="channels"
+                       type="text"
+                       default="joomla"
+                       label="Channels"
+                       size="60"
+                       description="Select software channels, seperated by commas." />
+
+	</params>
+</config>
